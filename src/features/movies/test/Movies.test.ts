@@ -51,7 +51,7 @@ describe('Features', () => {
 
         expect(MoviesReducer(state, action)).toEqual({
           isFetching: false,
-          movies
+          data: movies
         });
       });
 
@@ -61,7 +61,7 @@ describe('Features', () => {
 
         expect(MoviesReducer(state, action)).toEqual({
           isFetching: false,
-          movies: [],
+          data: [],
           error: true
         });
       });

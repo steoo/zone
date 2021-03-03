@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { RootState } from '../../app/store';
 
 export interface Movie {
   adult: boolean;
@@ -18,13 +19,13 @@ export interface Movie {
 }
 
 interface MoviesState {
-  movies: Movie[];
+  data: Movie[];
   isFetching: boolean;
   error?: any;
 }
 
 export const initialState: MoviesState = {
-  movies: [],
+  data: [],
   isFetching: false
 };
 
@@ -36,16 +37,32 @@ export const moviesSlice = createSlice({
       state.isFetching = true;
     },
     fetchSuccessMovies: (state, action: PayloadAction<Movie[]>) => {
-      state.movies = state.movies.concat(action.payload);
+      state.data = state.data.concat(action.payload);
       state.isFetching = false;
     },
     fetchFailedMovies: (state, action) => {
       state.isFetching = false;
-      state.movies = [];
+      state.data = [];
       state.error = true;
     }
   }
 });
+
+export const selectMoviesByPopularity = (state: RootState) => {
+  if (!state.movies.data.length) {
+    return state.movies.data;
+  }
+
+  return [...state.movies.data].sort((firstItem, secondItem) => secondItem.popularity - firstItem.popularity);
+};
+
+export const selectMoviesByGenres = (state: RootState, genreIds: number[]) => {
+  if (!state.movies.data.length) {
+    return state.movies.data;
+  }
+
+  return [...state.movies.data].filter((item) => genreIds.every((innerId) => item.genre_ids.includes(innerId)));
+};
 
 export const { fetchMovies, fetchSuccessMovies, fetchFailedMovies } = moviesSlice.actions;
 

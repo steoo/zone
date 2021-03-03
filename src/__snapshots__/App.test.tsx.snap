@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components App should render without crashing 1`] = `
+<body>
+  <div>
+    <div
+      class="App"
+    >
+      <header
+        class="App-header"
+      >
+        <div>
+          <div
+            class="row"
+          >
+            <button
+              aria-label="Increment value"
+              class="button"
+            >
+              +
+            </button>
+            <span
+              class="value"
+            >
+              0
+            </span>
+            <button
+              aria-label="Decrement value"
+              class="button"
+            >
+              -
+            </button>
+          </div>
+          <div
+            class="row"
+          >
+            <input
+              aria-label="Set increment amount"
+              class="textbox"
+              value="2"
+            />
+            <button
+              class="button"
+            >
+              Add Amount
+            </button>
+            <button
+              class="asyncButton"
+            >
+              Add Async
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+</body>
+`;
