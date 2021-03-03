@@ -10,7 +10,7 @@ export interface Movie {
   overview: string;
   popularity: number;
   poster_path: string;
-  release_date: Date;
+  release_date: string;
   title: string;
   video: boolean;
   vote_average: number;
@@ -23,7 +23,7 @@ interface MoviesState {
   error?: any;
 }
 
-const initialState: MoviesState = {
+export const initialState: MoviesState = {
   movies: [],
   isFetching: false
 };
@@ -35,17 +35,18 @@ export const moviesSlice = createSlice({
     fetchMovies: (state) => {
       state.isFetching = true;
     },
-    fetchSuccessMovies: (state, action: PayloadAction<Movie>) => {
-      state.movies.push(action.payload);
+    fetchSuccessMovies: (state, action: PayloadAction<Movie[]>) => {
+      state.movies = state.movies.concat(action.payload);
       state.isFetching = false;
     },
-    fetchErrorMovies: (state, action) => {
+    fetchFailedMovies: (state, action) => {
       state.isFetching = false;
+      state.movies = [];
       state.error = true;
     }
   }
 });
 
-export const { fetchMovies, fetchSuccessMovies, fetchErrorMovies } = moviesSlice.actions;
+export const { fetchMovies, fetchSuccessMovies, fetchFailedMovies } = moviesSlice.actions;
 
 export default moviesSlice.reducer;
