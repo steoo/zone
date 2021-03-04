@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { RootState } from '../../app/store';
-import { orderByPopularity } from './Movie.utils';
+import { filterByGenres, filterByVoteAverage, orderByPopularity } from './Movie.utils';
 
 export interface Movie {
   adult: boolean;
@@ -49,20 +49,18 @@ export const moviesSlice = createSlice({
   }
 });
 
-export const selectMoviesByPopularity = (state: RootState) => {
-  if (!state.movies.data.length) {
-    return state.movies.data;
-  }
+export const selectMovies = (state: RootState): Movie[] => state.movies.data;
 
+export const selectMoviesByPopularity = (state: RootState): Movie[] => {
   return orderByPopularity([...state.movies.data]);
 };
 
-export const selectMoviesByGenres = (state: RootState, genreIds: number[]) => {
-  if (!state.movies.data.length) {
-    return state.movies.data;
-  }
+export const filterMoviesByGenres = (state: RootState, genreIds: number[]) => {
+  return filterByGenres([...state.movies.data], genreIds);
+};
 
-  return [...state.movies.data].filter((item) => genreIds.every((innerId) => item.genre_ids.includes(innerId)));
+export const filterMoviesByVoteAverage = (state: RootState, voteAverage: number) => {
+  return filterByVoteAverage([...state.movies.data], voteAverage);
 };
 
 export const { fetchMovies, fetchSuccessMovies, fetchFailedMovies } = moviesSlice.actions;

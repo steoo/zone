@@ -1,11 +1,11 @@
 import React, { FunctionComponent, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Counter } from './features/counter/Counter';
-import { fetchMovies, selectMoviesByPopularity } from './features/movies/Movies.slice';
+import { fetchMovies, selectMovies } from './features/movies/Movies.slice';
 
 const App: FunctionComponent = () => {
   const dispatch = useDispatch();
-  const movies = useSelector(selectMoviesByPopularity);
+  const movies = useSelector(selectMovies);
 
   useEffect(() => {
     dispatch(fetchMovies());
