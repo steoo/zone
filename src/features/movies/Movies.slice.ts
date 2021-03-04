@@ -1,5 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { RootState } from '../../app/store';
+import { orderByPopularity } from './Movie.utils';
 
 export interface Movie {
   adult: boolean;
@@ -53,7 +54,7 @@ export const selectMoviesByPopularity = (state: RootState) => {
     return state.movies.data;
   }
 
-  return [...state.movies.data].sort((firstItem, secondItem) => secondItem.popularity - firstItem.popularity);
+  return orderByPopularity([...state.movies.data]);
 };
 
 export const selectMoviesByGenres = (state: RootState, genreIds: number[]) => {
