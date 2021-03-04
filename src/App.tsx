@@ -1,8 +1,9 @@
 import React, { FunctionComponent, useEffect } from 'react';
 import { batch, useDispatch, useSelector } from 'react-redux';
-import { fetchGenres } from './features/genres/Genres.slice';
+import { fetchGenres, selectGenres } from './features/genres/Genres.slice';
 import { fetchMovies, selectMovies } from './features/movies/Movies.slice';
 import Movies from './features/movies/Movies.component';
+import Filters from './features/filters/Filters.component';
 
 /**
  * AppComponent
@@ -12,6 +13,7 @@ import Movies from './features/movies/Movies.component';
 const App: FunctionComponent = () => {
   const dispatch = useDispatch();
   const movies = useSelector(selectMovies);
+  const genres = useSelector(selectGenres);
 
   useEffect(() => {
     /**
@@ -26,7 +28,8 @@ const App: FunctionComponent = () => {
 
   return (
     <div>
-      <Movies movies={movies} />
+      {genres && <Filters genres={genres} />}
+      {movies && <Movies movies={movies} />}
     </div>
   );
 };

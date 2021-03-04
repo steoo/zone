@@ -9,7 +9,7 @@ const genresEpic: Epic = (action$, state$, { getJSON }) =>
     filter(({ type }) => type === fetchGenres.type),
     mergeMap((action) =>
       getJSON(`${API_URL}/genres`).pipe(
-        map((response: any) => fetchSuccessGenres(response.results)),
+        map((response: any) => fetchSuccessGenres(response)),
         catchError((error) => of(fetchFailedGenres(error)))
       )
     )

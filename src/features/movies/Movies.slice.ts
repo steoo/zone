@@ -82,6 +82,6 @@ export const selectMovies = (state: RootState): Movie[] => {
 };
 
 
-export const { fetchMovies, fetchSuccessMovies, fetchFailedMovies } = moviesSlice.actions;
+export const { fetchMovies, fetchSuccessMovies, fetchFailedMovies, setFilters } = moviesSlice.actions;
 
 export default moviesSlice.reducer;
