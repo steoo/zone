@@ -1,5 +1,4 @@
 import { Movie } from './Movies.slice';
-import { movies } from './test/Movies.fixtures';
 
 export const orderByPopularity = (movies: Movie[], order: 'asc' | 'desc' = 'desc') => {
   const sorted = movies.sort((firstItem, secondItem) => firstItem.popularity - secondItem.popularity);

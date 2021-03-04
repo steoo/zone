@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { RootState } from '../../app/store';
-import { filterByGenres, filterByVoteAverage, orderByPopularity } from './Movie.utils';
+import { filterByGenres, filterByVoteAverage, orderByPopularity } from './Movies.utils';
 
 export interface Movie {
   adult: boolean;

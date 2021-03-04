@@ -1,7 +1,7 @@
 // import { TestScheduler } from 'rxjs/testing';
 import MoviesReducer, { fetchMovies, fetchSuccessMovies, fetchFailedMovies, initialState } from '../Movies.slice';
 import { movies } from './Movies.fixtures';
-import { filterByGenres, filterByVoteAverage, orderByPopularity } from '../Movie.utils';
+import { filterByGenres, filterByVoteAverage, orderByPopularity } from '../Movies.utils';
 // import { moviesEpic } from '../Movies.epics';
 
 /*const testScheduler = new TestScheduler((actual, expected) => {
