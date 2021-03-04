@@ -2,14 +2,12 @@ import { createEpicMiddleware, ActionsObservable, combineEpics, Epic, StateObser
 import { catchError } from 'rxjs/operators';
 import { ajax } from 'rxjs/ajax';
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
 import moviesReducer from '../features/movies/Movies.slice';
 import genresReducer from '../features/genres/Genres.slice';
-import { counterEpic } from '../features/counter/Counter.epics';
 import { moviesEpic } from '../features/movies/Movies.epics';
 import { genresEpic } from '../features/genres/Genres.epics';
 
-const epics: Epic[] = [counterEpic, moviesEpic, genresEpic];
+const epics: Epic[] = [moviesEpic, genresEpic];
 
 const epicMiddleware = createEpicMiddleware({
   dependencies: { getJSON: ajax.getJSON }
@@ -17,7 +15,6 @@ const epicMiddleware = createEpicMiddleware({
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
     movies: moviesReducer,
     genres: genresReducer
   },

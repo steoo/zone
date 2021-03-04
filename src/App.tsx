@@ -1,25 +1,32 @@
 import React, { FunctionComponent, useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { Counter } from './features/counter/Counter';
+import { batch, useDispatch, useSelector } from 'react-redux';
+import { fetchGenres } from './features/genres/Genres.slice';
 import { fetchMovies, selectMovies } from './features/movies/Movies.slice';
+import Movies from './features/movies/Movies.component';
 
+/**
+ * AppComponent
+ *
+ * This component contains the whole app
+ * */
 const App: FunctionComponent = () => {
   const dispatch = useDispatch();
   const movies = useSelector(selectMovies);
 
   useEffect(() => {
-    dispatch(fetchMovies());
+    /**
+     * Bootstrap for this component fetch all you need for the whole application
+     * This side-effect uses `batch` to avoid pushing two actions one after the other
+     * */
+    batch(() => {
+      dispatch(fetchMovies());
+      dispatch(fetchGenres());
+    });
   }, [dispatch]);
 
-  useEffect(() => {
-    console.log(movies);
-  }, [movies]);
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <Counter />
-      </header>
+    <div>
+      <Movies movies={movies} />
     </div>
   );
 };

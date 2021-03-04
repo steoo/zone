@@ -22,11 +22,19 @@ export interface Movie {
 interface MoviesState {
   data: Movie[];
   isFetching: boolean;
+  filters: {
+    genres: number[];
+    avg: number;
+  };
   error?: any;
 }
 
 export const initialState: MoviesState = {
   data: [],
+  filters: {
+    genres: [],
+    avg: 0
+  },
   isFetching: false
 };
 
@@ -45,23 +53,34 @@ export const moviesSlice = createSlice({
       state.isFetching = false;
       state.data = [];
       state.error = true;
+    },
+    setFilters: (state, action: PayloadAction<{ genres: number[]; avg: number }>) => {
+      state.filters = action.payload;
     }
   }
 });
 
-export const selectMovies = (state: RootState): Movie[] => state.movies.data;
+/**
+ * The master selector for movies
+ * We use the filters in the store to filter the movies and return it to the component
+ *
+ * */
+export const selectMovies = (state: RootState): Movie[] => {
+  if (!state.movies.data.length) {
+    return state.movies.data;
+  }
 
-export const selectMoviesByPopularity = (state: RootState): Movie[] => {
-  return orderByPopularity([...state.movies.data]);
+  const {
+    filters: { genres, avg }
+  } = state.movies;
+  const movies = [...state.movies.data];
+
+  const byGenre = genres.length ? filterByGenres(movies, genres) : movies;
+  const byVoteAverage = filterByVoteAverage(byGenre, avg);
+
+  return orderByPopularity(byVoteAverage);
 };
 
-export const filterMoviesByGenres = (state: RootState, genreIds: number[]) => {
-  return filterByGenres([...state.movies.data], genreIds);
-};
-
-export const filterMoviesByVoteAverage = (state: RootState, voteAverage: number) => {
-  return filterByVoteAverage([...state.movies.data], voteAverage);
-};
 
 export const { fetchMovies, fetchSuccessMovies, fetchFailedMovies } = moviesSlice.actions;
 

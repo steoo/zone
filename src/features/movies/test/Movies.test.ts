@@ -51,6 +51,7 @@ describe('Features', () => {
         const action = fetchSuccessMovies(movies);
 
         expect(MoviesReducer(state, action)).toEqual({
+          ...initialState,
           isFetching: false,
           data: movies
         });
@@ -61,6 +62,7 @@ describe('Features', () => {
         const action = fetchFailedMovies({});
 
         expect(MoviesReducer(state, action)).toEqual({
+          ...initialState,
           isFetching: false,
           data: [],
           error: true
