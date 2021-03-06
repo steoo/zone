@@ -1,40 +1,32 @@
-// import { TestScheduler } from 'rxjs/testing';
+import React from 'react';
+import { render } from '@testing-library/react';
 import MoviesReducer, { fetchMovies, fetchSuccessMovies, fetchFailedMovies, initialState } from '../Movies.slice';
 import { movies } from './Movies.fixtures';
 import { filterByGenres, filterByVoteAverage, orderByPopularity } from '../Movies.utils';
-// import { moviesEpic } from '../Movies.epics';
-
-/*const testScheduler = new TestScheduler((actual, expected) => {
-  expect(actual).toEqual(expected);
-});
-
-testScheduler.run(({ hot, cold, expectObservable }) => {
-  const action$ = hot('-a', {
-    a: fetchMovies()
-  });
-
-  const state$ = null;
-  const dependencies = {
-    getJSON: (url: string) =>
-      cold('--a', {
-        a: { url }
-      })
-  };
-
-  const output$ = moviesEpic(action$, state$, dependencies);
-  
-  expectObservable(output$).toBe('---a', {
-    a: {
-      type: 'FETCH_USER_FULFILLED',
-      response: {
-        url: 'https://api.github.com/users/123'
-      }
-    }
-  });
-});*/
+import Movies from '../Movies.component';
+import renderWithStore from '../../../app/utils/testing';
+import { genres } from '../../genres/test/Genres.fixtures';
 
 describe('Features', () => {
   describe('Movies', () => {
+    describe('Component', () => {
+      it('should render, without crashing', () => {
+        const { baseElement } = renderWithStore(<Movies movies={movies} />, {
+          initialState: {
+            movies: {
+              ...initialState,
+              data: movies
+            },
+            genres: {
+              isFetching: false,
+              data: genres
+            }
+          }
+        });
+        expect(baseElement).toMatchSnapshot();
+      });
+    });
+
     describe('Slice', () => {
       it('should set isFetching to true when fetchMovies is dispatched', () => {
         const state = { ...initialState };

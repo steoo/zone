@@ -20,7 +20,8 @@ const Filters: FunctionComponent<{ genres: Genre[] }> = ({ genres }) => {
   };
 
   const handleOnAvgChange = (event: ChangeEvent<HTMLInputElement>) => {
-    setCurrentVoteAverage(parseFloat(event.target.value));
+    const value = parseFloat(event.target.value);
+    setCurrentVoteAverage(value);
   };
 
   useEffect(() => {

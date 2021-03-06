@@ -1,0 +1,466 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features Movies Component should render, without crashing 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-bdfBwQ cOlKfH"
+    >
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Fantasy
+        </div>
+        <div>
+          Action
+        </div>
+        <div>
+          Adventure
+        </div>
+        <div
+          class="sc-dlfnbm dctKyC"
+          src="https://image.tmdb.org/t/p/w500///8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"
+        />
+        <h1>
+          Wonder Woman 1984
+        </h1>
+        <p>
+          2407.318
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Thriller
+        </div>
+        <div>
+          Crime
+        </div>
+        <div
+          class="sc-dlfnbm cNCoTI"
+          src="https://image.tmdb.org/t/p/w500///c7VlGCCgM9GZivKSzBgzuOVxQn7.jpg"
+        />
+        <h1>
+          The Little Things
+        </h1>
+        <p>
+          2119.969
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Science Fiction
+        </div>
+        <div>
+          Action
+        </div>
+        <div
+          class="sc-dlfnbm iddxWM"
+          src="https://image.tmdb.org/t/p/w500///13B6onhL6FzSN2KaNeQeMML05pS.jpg"
+        />
+        <h1>
+          Breach
+        </h1>
+        <p>
+          1267.391
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Action
+        </div>
+        <div>
+          Adventure
+        </div>
+        <div>
+          Crime
+        </div>
+        <div
+          class="sc-dlfnbm ixvntY"
+          src="https://image.tmdb.org/t/p/w500///vYvppZMvXYheYTWVd8Rnn9nsmNp.jpg"
+        />
+        <h1>
+          Vanguard
+        </h1>
+        <p>
+          1362.714
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Family
+        </div>
+        <div>
+          Animation
+        </div>
+        <div>
+          Comedy
+        </div>
+        <div>
+          Drama
+        </div>
+        <div>
+          Music
+        </div>
+        <div>
+          Fantasy
+        </div>
+        <div
+          class="sc-dlfnbm ipASGG"
+          src="https://image.tmdb.org/t/p/w500///hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg"
+        />
+        <h1>
+          Soul
+        </h1>
+        <p>
+          1175.056
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Thriller
+        </div>
+        <div>
+          Action
+        </div>
+        <div>
+          Crime
+        </div>
+        <div>
+          Drama
+        </div>
+        <div
+          class="sc-dlfnbm lxcjc"
+          src="https://image.tmdb.org/t/p/w500///zeD4PabP6099gpE0STWJrJrCBCs.jpg"
+        />
+        <h1>
+          Honest Thief
+        </h1>
+        <p>
+          719.222
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Family
+        </div>
+        <div>
+          Animation
+        </div>
+        <div>
+          Fantasy
+        </div>
+        <div
+          class="sc-dlfnbm fqiWxE"
+          src="https://image.tmdb.org/t/p/w500///2VrvxK4yxNCU6KVgo5TADJeBEQu.jpg"
+        />
+        <h1>
+          100% Wolf
+        </h1>
+        <p>
+          737.271
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Family
+        </div>
+        <div>
+          Adventure
+        </div>
+        <div>
+          Fantasy
+        </div>
+        <div>
+          Animation
+        </div>
+        <div
+          class="sc-dlfnbm ijzjIk"
+          src="https://image.tmdb.org/t/p/w500///tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg"
+        />
+        <h1>
+          The Croods: A New Age
+        </h1>
+        <p>
+          641.172
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Horror
+        </div>
+        <div>
+          Thriller
+        </div>
+        <div
+          class="sc-dlfnbm eNVwFc"
+          src="https://image.tmdb.org/t/p/w500///3ynPnBXQVT2Y0s19fDIPlWKUlxH.jpg"
+        />
+        <h1>
+          The Rental
+        </h1>
+        <p>
+          510.22
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Science Fiction
+        </div>
+        <div>
+          Drama
+        </div>
+        <div>
+          Horror
+        </div>
+        <div
+          class="sc-dlfnbm eIXHLB"
+          src="https://image.tmdb.org/t/p/w500///eAUzmhP54bE1vPXaY7FbuZREJlR.jpg"
+        />
+        <h1>
+          Sputnik
+        </h1>
+        <p>
+          458.087
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Horror
+        </div>
+        <div>
+          Mystery
+        </div>
+        <div
+          class="sc-dlfnbm hfcTsQ"
+          src="https://image.tmdb.org/t/p/w500///h7dZpJDORYs5c56dydbrLFkEXpE.jpg"
+        />
+        <h1>
+          Host
+        </h1>
+        <p>
+          541.71
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Action
+        </div>
+        <div>
+          Horror
+        </div>
+        <div>
+          Science Fiction
+        </div>
+        <div
+          class="sc-dlfnbm cYLVLj"
+          src="https://image.tmdb.org/t/p/w500///xZNw9xxtwbEf25NYoz52KdbXHPM.jpg"
+        />
+        <h1>
+          The New Mutants
+        </h1>
+        <p>
+          343.235
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Family
+        </div>
+        <div>
+          Fantasy
+        </div>
+        <div>
+          Adventure
+        </div>
+        <div>
+          Comedy
+        </div>
+        <div>
+          Horror
+        </div>
+        <div
+          class="sc-dlfnbm cUtXhy"
+          src="https://image.tmdb.org/t/p/w500///b1C0FuXp4wiPmHLVKq4kwtDMgK6.jpg"
+        />
+        <h1>
+          Roald Dahl's The Witches
+        </h1>
+        <p>
+          271.001
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Drama
+        </div>
+        <div>
+          History
+        </div>
+        <div
+          class="sc-dlfnbm BwGpT"
+          src="https://image.tmdb.org/t/p/w500///dFDNb9Gk1kyLRcconpj7Mc7C7IL.jpg"
+        />
+        <h1>
+          The Dig
+        </h1>
+        <p>
+          222.015
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Thriller
+        </div>
+        <div>
+          Horror
+        </div>
+        <div
+          class="sc-dlfnbm fzesMg"
+          src="https://image.tmdb.org/t/p/w500///gzFatNrw0lhKD5NxaU6zC7S2KjP.jpg"
+        />
+        <h1>
+          The Owners
+        </h1>
+        <p>
+          219.665
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Horror
+        </div>
+        <div>
+          Mystery
+        </div>
+        <div
+          class="sc-dlfnbm WkgKW"
+          src="https://image.tmdb.org/t/p/w500///8F9xUvb1JMWUMkFV2Yq3aiueAbq.jpg"
+        />
+        <h1>
+          Death of Me
+        </h1>
+        <p>
+          203.367
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Horror
+        </div>
+        <div
+          class="sc-dlfnbm jxizwB"
+          src="https://image.tmdb.org/t/p/w500///xLbuMxKORru3oTlItLBWpI5WJxR.jpg"
+        />
+        <h1>
+          Butchers
+        </h1>
+        <p>
+          180.143
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Animation
+        </div>
+        <div>
+          Action
+        </div>
+        <div>
+          Adventure
+        </div>
+        <div>
+          Fantasy
+        </div>
+        <div>
+          Drama
+        </div>
+        <div
+          class="sc-dlfnbm ehLfoF"
+          src="https://image.tmdb.org/t/p/w500///yF45egpHwaYLn4jTyZAgk0Cmug9.jpg"
+        />
+        <h1>
+          Demon Slayer: Infinity Train
+        </h1>
+        <p>
+          206.817
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Drama
+        </div>
+        <div
+          class="sc-dlfnbm gGrpyw"
+          src="https://image.tmdb.org/t/p/w500///v6NodCMzqilx0Xw541P65WFnDfE.jpg"
+        />
+        <h1>
+          New Order
+        </h1>
+        <p>
+          135.304
+        </p>
+      </div>
+      <div
+        class="sc-gsTCUz fzELiT"
+      >
+        <div>
+          Horror
+        </div>
+        <div>
+          Drama
+        </div>
+        <div>
+          Fantasy
+        </div>
+        <div
+          class="sc-dlfnbm kWTRUb"
+          src="https://image.tmdb.org/t/p/w500///lhMIra0pqWNuD6CIXoTmGwZ0EBS.jpg"
+        />
+        <h1>
+          The Craft: Legacy
+        </h1>
+        <p>
+          122.882
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;

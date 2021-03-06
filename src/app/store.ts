@@ -1,7 +1,7 @@
 import { createEpicMiddleware, ActionsObservable, combineEpics, Epic, StateObservable } from 'redux-observable';
 import { catchError } from 'rxjs/operators';
 import { ajax } from 'rxjs/ajax';
-import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
+import { configureStore, ThunkAction, Action, combineReducers } from '@reduxjs/toolkit';
 import moviesReducer from '../features/movies/Movies.slice';
 import genresReducer from '../features/genres/Genres.slice';
 import { moviesEpic } from '../features/movies/Movies.epics';
@@ -13,11 +13,13 @@ const epicMiddleware = createEpicMiddleware({
   dependencies: { getJSON: ajax.getJSON }
 });
 
+export const rootReducer = combineReducers({
+  movies: moviesReducer,
+  genres: genresReducer
+});
+
 export const store = configureStore({
-  reducer: {
-    movies: moviesReducer,
-    genres: genresReducer
-  },
+  reducer: rootReducer,
   middleware: [epicMiddleware]
 });
 

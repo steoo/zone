@@ -1,5 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { RootState } from '../../app/store';
+import { getGenreById } from './Genres.utils';
 
 export interface Genre {
   id: number;
@@ -37,6 +38,7 @@ export const genresSlice = createSlice({
 });
 
 export const selectGenres = (state: RootState): Genre[] => state.genres.data;
+export const selecteGenre = (state: RootState, genreId: number) => getGenreById(state.genres.data, genreId);
 
 export const { fetchGenres, fetchSuccessGenres, fetchFailedGenres } = genresSlice.actions;
 
