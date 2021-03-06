@@ -5,6 +5,7 @@ import { getGenreById } from './Genres.utils';
 export interface Genre {
   id: number;
   name: string;
+  isSelected?: boolean;
 }
 
 interface GenresState {
@@ -33,13 +34,20 @@ export const genresSlice = createSlice({
       state.isFetching = false;
       state.data = [];
       state.error = true;
+    },
+    toggleIsSelected: (state, action: PayloadAction<number>) => {
+      const genreId = action.payload;
+      const genre = state.data.find(({ id }) => id === genreId);
+      if (genre) {
+        genre.isSelected = !genre.isSelected;
+      }
     }
   }
 });
 
 export const selectGenres = (state: RootState): Genre[] => state.genres.data;
-export const selecteGenre = (state: RootState, genreId: number) => getGenreById(state.genres.data, genreId);
+export const selectGenre = (state: RootState, genreId: number) => getGenreById(state.genres.data, genreId);
 
-export const { fetchGenres, fetchSuccessGenres, fetchFailedGenres } = genresSlice.actions;
+export const { fetchGenres, fetchSuccessGenres, fetchFailedGenres, toggleIsSelected } = genresSlice.actions;
 
 export default genresSlice.reducer;

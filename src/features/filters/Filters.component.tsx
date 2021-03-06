@@ -1,23 +1,13 @@
 import React, { ChangeEvent, FunctionComponent, useEffect, useState } from 'react';
-import Select, { OptionTypeBase } from 'react-select';
-import { setFilters } from '../movies/Movies.slice';
-import { Genre } from '../genres/Genres.slice';
-import { ValueType } from 'react-select/src/types';
 import { useDispatch } from 'react-redux';
+import { setFilters } from '../movies/Movies.slice';
+import { FiltersContainer, GenresContainer } from './Filters.styled';
+import GenreComponent from '../genres/Genre.component';
+import { Genre } from '../genres/Genres.slice';
 
 const Filters: FunctionComponent<{ genres: Genre[] }> = ({ genres }) => {
   const dispatch = useDispatch();
-  const [currentGenres, setCurrentGenres] = useState<ValueType<OptionTypeBase, true>>([]);
   const [currentVoteAverage, setCurrentVoteAverage] = useState<number>(0);
-
-  const options = genres.map(({ id, name }) => ({
-    value: id,
-    label: name
-  }));
-
-  const handleOnSelectChange = (options: ValueType<OptionTypeBase, true>) => {
-    setCurrentGenres(options);
-  };
 
   const handleOnAvgChange = (event: ChangeEvent<HTMLInputElement>) => {
     const value = parseFloat(event.target.value);
@@ -27,17 +17,22 @@ const Filters: FunctionComponent<{ genres: Genre[] }> = ({ genres }) => {
   useEffect(() => {
     dispatch(
       setFilters({
-        genres: currentGenres.map(({ value }) => value),
+        genres: genres.filter(({ isSelected }) => isSelected === true).map(({ id }) => id),
         avg: currentVoteAverage
       })
     );
-  }, [dispatch, currentGenres, currentVoteAverage]);
+  }, [dispatch, genres, currentVoteAverage]);
 
   return (
-    <div>
+    <FiltersContainer>
+      <GenresContainer>
+        {genres.map(({ id }) => (
+          <GenreComponent key={id} genreId={id} />
+        ))}
+      </GenresContainer>
+      {/*<Select options={options} isMulti onChange={handleOnSelectChange} value={currentGenres} />*/}
       <input type="number" value={currentVoteAverage} onChange={handleOnAvgChange} />
-      <Select options={options} isMulti onChange={handleOnSelectChange} value={currentGenres} />
-    </div>
+    </FiltersContainer>
   );
 };
 

@@ -4,11 +4,9 @@ exports[`Components App should render without crashing 1`] = `
 <body>
   <div>
     <div>
-      <div>
-        <input
-          type="number"
-          value="0"
-        />
+      <div
+        class="sc-hKgILt eRMTFc"
+      >
         <div
           class=" css-2b097c-container"
         >
@@ -74,6 +72,10 @@ exports[`Components App should render without crashing 1`] = `
             </div>
           </div>
         </div>
+        <input
+          type="number"
+          value="0"
+        />
       </div>
       <div
         class="sc-bdfBwQ cOlKfH"

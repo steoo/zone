@@ -27,10 +27,10 @@ const App: FunctionComponent = () => {
   }, [dispatch]);
 
   return (
-    <div>
+    <main>
       {genres && <Filters genres={genres} />}
       {movies && <Movies movies={movies} />}
-    </div>
+    </main>
   );
 };
 
