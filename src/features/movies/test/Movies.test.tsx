@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from '@testing-library/react';
 import MoviesReducer, { fetchMovies, fetchSuccessMovies, fetchFailedMovies, initialState } from '../Movies.slice';
 import { movies } from './Movies.fixtures';
 import { filterByGenres, filterByVoteAverage, orderByPopularity } from '../Movies.utils';

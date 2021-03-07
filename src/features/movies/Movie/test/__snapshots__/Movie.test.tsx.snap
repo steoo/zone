@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features Movies Component should render, without crashing 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-gsTCUz erFNzH"
+    >
+      <div
+        class="sc-hKgILt eciuch"
+        src="https://image.tmdb.org/t/p/w200///8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"
+      />
+      <div
+        class="sc-dlfnbm eSOSpU"
+      >
+        7
+         
+        <span
+          aria-label="laugh"
+          role="img"
+        >
+          😃
+        </span>
+      </div>
+      <div
+        class="sc-eCssSg fXmEff"
+      >
+        <h1>
+          Wonder Woman 1984
+        </h1>
+        <p>
+          Popularity: 
+          2407.318
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;

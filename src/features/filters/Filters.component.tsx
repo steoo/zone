@@ -1,7 +1,7 @@
 import React, { ChangeEvent, FunctionComponent, useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { setFilters } from '../movies/Movies.slice';
-import { FiltersContainer, GenresContainer } from './Filters.styled';
+import { FiltersContainer, GenresContainer, VoteAverageContainer } from './Filters.styled';
 import GenreComponent from '../genres/Genre.component';
 import { Genre } from '../genres/Genres.slice';
 
@@ -30,8 +30,10 @@ const Filters: FunctionComponent<{ genres: Genre[] }> = ({ genres }) => {
           <GenreComponent key={id} genreId={id} />
         ))}
       </GenresContainer>
-      {/*<Select options={options} isMulti onChange={handleOnSelectChange} value={currentGenres} />*/}
-      <input type="number" value={currentVoteAverage} onChange={handleOnAvgChange} />
+      <VoteAverageContainer>
+        <h3>Vote average: </h3>
+        <input type="number" value={currentVoteAverage} onChange={handleOnAvgChange} />
+      </VoteAverageContainer>
     </FiltersContainer>
   );
 };

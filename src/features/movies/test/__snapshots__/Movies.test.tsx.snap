@@ -4,461 +4,627 @@ exports[`Features Movies Component should render, without crashing 1`] = `
 <body>
   <div>
     <div
-      class="sc-bdfBwQ cOlKfH"
+      class="sc-bdfBwQ jIuZxk"
     >
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Fantasy
-        </div>
-        <div>
-          Action
-        </div>
-        <div>
-          Adventure
+        <div
+          class="sc-hKgILt eciuch"
+          src="https://image.tmdb.org/t/p/w200///8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          7
+           
+          <span
+            aria-label="laugh"
+            role="img"
+          >
+            😃
+          </span>
         </div>
         <div
-          class="sc-dlfnbm dctKyC"
-          src="https://image.tmdb.org/t/p/w500///8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"
-        />
-        <h1>
-          Wonder Woman 1984
-        </h1>
-        <p>
-          2407.318
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            Wonder Woman 1984
+          </h1>
+          <p>
+            Popularity: 
+            2407.318
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Thriller
-        </div>
-        <div>
-          Crime
+        <div
+          class="sc-hKgILt kdMIWv"
+          src="https://image.tmdb.org/t/p/w200///c7VlGCCgM9GZivKSzBgzuOVxQn7.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          6.4
+           
+          <span
+            aria-label="smile"
+            role="img"
+          >
+            🙂
+          </span>
         </div>
         <div
-          class="sc-dlfnbm cNCoTI"
-          src="https://image.tmdb.org/t/p/w500///c7VlGCCgM9GZivKSzBgzuOVxQn7.jpg"
-        />
-        <h1>
-          The Little Things
-        </h1>
-        <p>
-          2119.969
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            The Little Things
+          </h1>
+          <p>
+            Popularity: 
+            2119.969
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Science Fiction
-        </div>
-        <div>
-          Action
+        <div
+          class="sc-hKgILt jvyagn"
+          src="https://image.tmdb.org/t/p/w200///13B6onhL6FzSN2KaNeQeMML05pS.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          4.7
+           
+          <span
+            aria-label="thinking"
+            role="img"
+          >
+            🤔
+          </span>
         </div>
         <div
-          class="sc-dlfnbm iddxWM"
-          src="https://image.tmdb.org/t/p/w500///13B6onhL6FzSN2KaNeQeMML05pS.jpg"
-        />
-        <h1>
-          Breach
-        </h1>
-        <p>
-          1267.391
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            Breach
+          </h1>
+          <p>
+            Popularity: 
+            1267.391
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Action
-        </div>
-        <div>
-          Adventure
-        </div>
-        <div>
-          Crime
+        <div
+          class="sc-hKgILt jcdUnj"
+          src="https://image.tmdb.org/t/p/w200///vYvppZMvXYheYTWVd8Rnn9nsmNp.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          6.6
+           
+          <span
+            aria-label="smile"
+            role="img"
+          >
+            🙂
+          </span>
         </div>
         <div
-          class="sc-dlfnbm ixvntY"
-          src="https://image.tmdb.org/t/p/w500///vYvppZMvXYheYTWVd8Rnn9nsmNp.jpg"
-        />
-        <h1>
-          Vanguard
-        </h1>
-        <p>
-          1362.714
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            Vanguard
+          </h1>
+          <p>
+            Popularity: 
+            1362.714
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Family
-        </div>
-        <div>
-          Animation
-        </div>
-        <div>
-          Comedy
-        </div>
-        <div>
-          Drama
-        </div>
-        <div>
-          Music
-        </div>
-        <div>
-          Fantasy
+        <div
+          class="sc-hKgILt bNFBRh"
+          src="https://image.tmdb.org/t/p/w200///hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          8.3
+           
+          <span
+            aria-label="laugh"
+            role="img"
+          >
+            😃
+          </span>
         </div>
         <div
-          class="sc-dlfnbm ipASGG"
-          src="https://image.tmdb.org/t/p/w500///hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg"
-        />
-        <h1>
-          Soul
-        </h1>
-        <p>
-          1175.056
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            Soul
+          </h1>
+          <p>
+            Popularity: 
+            1175.056
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Thriller
-        </div>
-        <div>
-          Action
-        </div>
-        <div>
-          Crime
-        </div>
-        <div>
-          Drama
+        <div
+          class="sc-hKgILt gZhaEn"
+          src="https://image.tmdb.org/t/p/w200///zeD4PabP6099gpE0STWJrJrCBCs.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          6.6
+           
+          <span
+            aria-label="smile"
+            role="img"
+          >
+            🙂
+          </span>
         </div>
         <div
-          class="sc-dlfnbm lxcjc"
-          src="https://image.tmdb.org/t/p/w500///zeD4PabP6099gpE0STWJrJrCBCs.jpg"
-        />
-        <h1>
-          Honest Thief
-        </h1>
-        <p>
-          719.222
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            Honest Thief
+          </h1>
+          <p>
+            Popularity: 
+            719.222
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Family
-        </div>
-        <div>
-          Animation
-        </div>
-        <div>
-          Fantasy
+        <div
+          class="sc-hKgILt cYypnf"
+          src="https://image.tmdb.org/t/p/w200///2VrvxK4yxNCU6KVgo5TADJeBEQu.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          6.1
+           
+          <span
+            aria-label="smile"
+            role="img"
+          >
+            🙂
+          </span>
         </div>
         <div
-          class="sc-dlfnbm fqiWxE"
-          src="https://image.tmdb.org/t/p/w500///2VrvxK4yxNCU6KVgo5TADJeBEQu.jpg"
-        />
-        <h1>
-          100% Wolf
-        </h1>
-        <p>
-          737.271
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            100% Wolf
+          </h1>
+          <p>
+            Popularity: 
+            737.271
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Family
-        </div>
-        <div>
-          Adventure
-        </div>
-        <div>
-          Fantasy
-        </div>
-        <div>
-          Animation
+        <div
+          class="sc-hKgILt OoVib"
+          src="https://image.tmdb.org/t/p/w200///tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          7.6
+           
+          <span
+            aria-label="laugh"
+            role="img"
+          >
+            😃
+          </span>
         </div>
         <div
-          class="sc-dlfnbm ijzjIk"
-          src="https://image.tmdb.org/t/p/w500///tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg"
-        />
-        <h1>
-          The Croods: A New Age
-        </h1>
-        <p>
-          641.172
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            The Croods: A New Age
+          </h1>
+          <p>
+            Popularity: 
+            641.172
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Horror
-        </div>
-        <div>
-          Thriller
+        <div
+          class="sc-hKgILt gHNXUv"
+          src="https://image.tmdb.org/t/p/w200///3ynPnBXQVT2Y0s19fDIPlWKUlxH.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          5.6
+           
+          <span
+            aria-label="thinking"
+            role="img"
+          >
+            🤔
+          </span>
         </div>
         <div
-          class="sc-dlfnbm eNVwFc"
-          src="https://image.tmdb.org/t/p/w500///3ynPnBXQVT2Y0s19fDIPlWKUlxH.jpg"
-        />
-        <h1>
-          The Rental
-        </h1>
-        <p>
-          510.22
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            The Rental
+          </h1>
+          <p>
+            Popularity: 
+            510.22
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Science Fiction
-        </div>
-        <div>
-          Drama
-        </div>
-        <div>
-          Horror
+        <div
+          class="sc-hKgILt bvEZpa"
+          src="https://image.tmdb.org/t/p/w200///eAUzmhP54bE1vPXaY7FbuZREJlR.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          6.5
+           
+          <span
+            aria-label="smile"
+            role="img"
+          >
+            🙂
+          </span>
         </div>
         <div
-          class="sc-dlfnbm eIXHLB"
-          src="https://image.tmdb.org/t/p/w500///eAUzmhP54bE1vPXaY7FbuZREJlR.jpg"
-        />
-        <h1>
-          Sputnik
-        </h1>
-        <p>
-          458.087
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            Sputnik
+          </h1>
+          <p>
+            Popularity: 
+            458.087
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Horror
-        </div>
-        <div>
-          Mystery
+        <div
+          class="sc-hKgILt gQLJf"
+          src="https://image.tmdb.org/t/p/w200///h7dZpJDORYs5c56dydbrLFkEXpE.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          7
+           
+          <span
+            aria-label="laugh"
+            role="img"
+          >
+            😃
+          </span>
         </div>
         <div
-          class="sc-dlfnbm hfcTsQ"
-          src="https://image.tmdb.org/t/p/w500///h7dZpJDORYs5c56dydbrLFkEXpE.jpg"
-        />
-        <h1>
-          Host
-        </h1>
-        <p>
-          541.71
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            Host
+          </h1>
+          <p>
+            Popularity: 
+            541.71
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Action
-        </div>
-        <div>
-          Horror
-        </div>
-        <div>
-          Science Fiction
+        <div
+          class="sc-hKgILt jGSldI"
+          src="https://image.tmdb.org/t/p/w200///xZNw9xxtwbEf25NYoz52KdbXHPM.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          6.4
+           
+          <span
+            aria-label="smile"
+            role="img"
+          >
+            🙂
+          </span>
         </div>
         <div
-          class="sc-dlfnbm cYLVLj"
-          src="https://image.tmdb.org/t/p/w500///xZNw9xxtwbEf25NYoz52KdbXHPM.jpg"
-        />
-        <h1>
-          The New Mutants
-        </h1>
-        <p>
-          343.235
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            The New Mutants
+          </h1>
+          <p>
+            Popularity: 
+            343.235
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Family
-        </div>
-        <div>
-          Fantasy
-        </div>
-        <div>
-          Adventure
-        </div>
-        <div>
-          Comedy
-        </div>
-        <div>
-          Horror
+        <div
+          class="sc-hKgILt keHhPd"
+          src="https://image.tmdb.org/t/p/w200///b1C0FuXp4wiPmHLVKq4kwtDMgK6.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          6.8
+           
+          <span
+            aria-label="smile"
+            role="img"
+          >
+            🙂
+          </span>
         </div>
         <div
-          class="sc-dlfnbm cUtXhy"
-          src="https://image.tmdb.org/t/p/w500///b1C0FuXp4wiPmHLVKq4kwtDMgK6.jpg"
-        />
-        <h1>
-          Roald Dahl's The Witches
-        </h1>
-        <p>
-          271.001
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            Roald Dahl's The Witches
+          </h1>
+          <p>
+            Popularity: 
+            271.001
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Drama
-        </div>
-        <div>
-          History
+        <div
+          class="sc-hKgILt bZSgQc"
+          src="https://image.tmdb.org/t/p/w200///dFDNb9Gk1kyLRcconpj7Mc7C7IL.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          7
+           
+          <span
+            aria-label="laugh"
+            role="img"
+          >
+            😃
+          </span>
         </div>
         <div
-          class="sc-dlfnbm BwGpT"
-          src="https://image.tmdb.org/t/p/w500///dFDNb9Gk1kyLRcconpj7Mc7C7IL.jpg"
-        />
-        <h1>
-          The Dig
-        </h1>
-        <p>
-          222.015
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            The Dig
+          </h1>
+          <p>
+            Popularity: 
+            222.015
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Thriller
-        </div>
-        <div>
-          Horror
+        <div
+          class="sc-hKgILt bXguOT"
+          src="https://image.tmdb.org/t/p/w200///gzFatNrw0lhKD5NxaU6zC7S2KjP.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          5.7
+           
+          <span
+            aria-label="thinking"
+            role="img"
+          >
+            🤔
+          </span>
         </div>
         <div
-          class="sc-dlfnbm fzesMg"
-          src="https://image.tmdb.org/t/p/w500///gzFatNrw0lhKD5NxaU6zC7S2KjP.jpg"
-        />
-        <h1>
-          The Owners
-        </h1>
-        <p>
-          219.665
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            The Owners
+          </h1>
+          <p>
+            Popularity: 
+            219.665
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Horror
-        </div>
-        <div>
-          Mystery
+        <div
+          class="sc-hKgILt frQdrp"
+          src="https://image.tmdb.org/t/p/w200///8F9xUvb1JMWUMkFV2Yq3aiueAbq.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          5.1
+           
+          <span
+            aria-label="thinking"
+            role="img"
+          >
+            🤔
+          </span>
         </div>
         <div
-          class="sc-dlfnbm WkgKW"
-          src="https://image.tmdb.org/t/p/w500///8F9xUvb1JMWUMkFV2Yq3aiueAbq.jpg"
-        />
-        <h1>
-          Death of Me
-        </h1>
-        <p>
-          203.367
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            Death of Me
+          </h1>
+          <p>
+            Popularity: 
+            203.367
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Horror
+        <div
+          class="sc-hKgILt iJAxyG"
+          src="https://image.tmdb.org/t/p/w200///xLbuMxKORru3oTlItLBWpI5WJxR.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          5.4
+           
+          <span
+            aria-label="thinking"
+            role="img"
+          >
+            🤔
+          </span>
         </div>
         <div
-          class="sc-dlfnbm jxizwB"
-          src="https://image.tmdb.org/t/p/w500///xLbuMxKORru3oTlItLBWpI5WJxR.jpg"
-        />
-        <h1>
-          Butchers
-        </h1>
-        <p>
-          180.143
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            Butchers
+          </h1>
+          <p>
+            Popularity: 
+            180.143
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Animation
-        </div>
-        <div>
-          Action
-        </div>
-        <div>
-          Adventure
-        </div>
-        <div>
-          Fantasy
-        </div>
-        <div>
-          Drama
+        <div
+          class="sc-hKgILt iqkkTq"
+          src="https://image.tmdb.org/t/p/w200///yF45egpHwaYLn4jTyZAgk0Cmug9.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          8
+           
+          <span
+            aria-label="laugh"
+            role="img"
+          >
+            😃
+          </span>
         </div>
         <div
-          class="sc-dlfnbm ehLfoF"
-          src="https://image.tmdb.org/t/p/w500///yF45egpHwaYLn4jTyZAgk0Cmug9.jpg"
-        />
-        <h1>
-          Demon Slayer: Infinity Train
-        </h1>
-        <p>
-          206.817
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            Demon Slayer: Infinity Train
+          </h1>
+          <p>
+            Popularity: 
+            206.817
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Drama
+        <div
+          class="sc-hKgILt gJwDXX"
+          src="https://image.tmdb.org/t/p/w200///v6NodCMzqilx0Xw541P65WFnDfE.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          6.6
+           
+          <span
+            aria-label="smile"
+            role="img"
+          >
+            🙂
+          </span>
         </div>
         <div
-          class="sc-dlfnbm gGrpyw"
-          src="https://image.tmdb.org/t/p/w500///v6NodCMzqilx0Xw541P65WFnDfE.jpg"
-        />
-        <h1>
-          New Order
-        </h1>
-        <p>
-          135.304
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            New Order
+          </h1>
+          <p>
+            Popularity: 
+            135.304
+          </p>
+        </div>
       </div>
       <div
-        class="sc-gsTCUz fzELiT"
+        class="sc-gsTCUz erFNzH"
       >
-        <div>
-          Horror
-        </div>
-        <div>
-          Drama
-        </div>
-        <div>
-          Fantasy
+        <div
+          class="sc-hKgILt dtUjSA"
+          src="https://image.tmdb.org/t/p/w200///lhMIra0pqWNuD6CIXoTmGwZ0EBS.jpg"
+        />
+        <div
+          class="sc-dlfnbm eSOSpU"
+        >
+          6
+           
+          <span
+            aria-label="smile"
+            role="img"
+          >
+            🙂
+          </span>
         </div>
         <div
-          class="sc-dlfnbm kWTRUb"
-          src="https://image.tmdb.org/t/p/w500///lhMIra0pqWNuD6CIXoTmGwZ0EBS.jpg"
-        />
-        <h1>
-          The Craft: Legacy
-        </h1>
-        <p>
-          122.882
-        </p>
+          class="sc-eCssSg fXmEff"
+        >
+          <h1>
+            The Craft: Legacy
+          </h1>
+          <p>
+            Popularity: 
+            122.882
+          </p>
+        </div>
       </div>
     </div>
   </div>
