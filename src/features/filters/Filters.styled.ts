@@ -11,12 +11,11 @@ export const FiltersContainer = styled.div`
 export const GenresContainer = styled.div`
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  flex-wrap: wrap;
 
-  overflow-x: scroll;
-
-  ${GenreContainer}:not(:first-of-type) {
-    margin-left: 16px;
+  ${GenreContainer} {
+    margin-top: 6px;
+    margin-right: 18px;
   }
 `;
 
@@ -42,7 +41,5 @@ export const VoteAverageContainer = styled.div`
     width: 50px;
     padding: 6px;
     outline: 0;
-    
-    
   }
 `;

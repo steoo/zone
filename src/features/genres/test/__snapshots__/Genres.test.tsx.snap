@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features Genres Component should render the correct genre 1`] = `
+<body>
+  <div>
+    <button
+      class="sc-bdfBwQ geIehQ"
+    >
+      Action
+    </button>
+  </div>
+</body>
+`;

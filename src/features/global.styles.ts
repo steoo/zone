@@ -1,4 +1,4 @@
-import { css } from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export interface Color {
   [colorName: string]: string;
@@ -6,7 +6,7 @@ export interface Color {
 
 export const colors: Color = {
   red: '#eb0000',
-  gray: '#333333'
+  gray: '#676767'
 };
 
 export const fill = css`
@@ -15,4 +15,9 @@ export const fill = css`
   left: 0;
   right: 0;
   bottom: 0;
+`;
+
+export const ErrorMessage = styled.h1`
+  color: ${colors.red};
+  text-align: center;
 `;

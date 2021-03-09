@@ -3,23 +3,23 @@ import { fill } from '../global.styles';
 
 export const MoviesContainer = styled.div`
   display: grid;
-  grid-auto-columns: 35%;
-  grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fill, 35%);
+  grid-row-gap: 12px;
   grid-column-gap: 24px;
   padding-bottom: 64px;
 
   overflow-x: scroll;
 
   @media (min-width: 768px) {
-    grid-auto-columns: 25%;
+    grid-template-columns: repeat(auto-fill, 25%);
   }
 
   @media (min-width: 1024px) {
-    grid-auto-columns: 20%;
+    grid-template-columns: repeat(auto-fill, 20%);
   }
 
   @media (min-width: 1200px) {
-    grid-auto-columns: 18%;
+    grid-template-columns: repeat(auto-fill, 18%);
   }
 `;
 

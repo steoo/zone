@@ -19,13 +19,15 @@ export interface Movie {
   vote_count: number;
 }
 
+interface Filters {
+  genres: number[];
+  avg: number;
+}
+
 interface MoviesState {
   data: Movie[];
   isFetching: boolean;
-  filters: {
-    genres: number[];
-    avg: number;
-  };
+  filters: Filters;
   error?: any;
 }
 
@@ -60,6 +62,14 @@ export const moviesSlice = createSlice({
   }
 });
 
+export const selectSlice = (state: RootState): MoviesState => {
+  return state.movies;
+};
+
+export const selectFilters = (state: RootState): Filters => {
+  return state.movies.filters;
+};
+
 /**
  * The master selector for movies
  * We use the filters in the store to filter the movies and return it to the component
@@ -80,7 +90,6 @@ export const selectMovies = (state: RootState): Movie[] => {
 
   return orderByPopularity(byVoteAverage);
 };
-
 
 export const { fetchMovies, fetchSuccessMovies, fetchFailedMovies, setFilters } = moviesSlice.actions;
 

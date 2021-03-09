@@ -7,8 +7,8 @@ exports[`Features Movies Component should render, without crashing 1`] = `
       class="sc-gsTCUz erFNzH"
     >
       <div
-        class="sc-hKgILt eciuch"
-        src="https://image.tmdb.org/t/p/w200///8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"
+        class="sc-hKgILt illcKF"
+        src="https://image.tmdb.org/t/p/w200/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"
       />
       <div
         class="sc-dlfnbm eSOSpU"

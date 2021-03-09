@@ -32,7 +32,7 @@ const MovieComponent: FunctionComponent<Movie> = ({ vote_average, poster_path, t
 
   return (
     <MovieContainer>
-      <Background src={`${IMAGE_BASE_URL}/${poster_path}`} />
+      <Background src={`${IMAGE_BASE_URL}${poster_path}`} />
       <VoteAverage>
         {vote_average} {emoji}
       </VoteAverage>

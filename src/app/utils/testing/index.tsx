@@ -1,6 +1,6 @@
 import React, { FunctionComponent, ReactElement } from 'react';
 import { render as rtlRender, RenderResult } from '@testing-library/react';
-import { createStore, Store } from 'redux';
+import { combineReducers, createStore, Store } from 'redux';
 import { Provider } from 'react-redux';
 import { rootReducer, RootState } from '../../store';
 import { initialState as moviesState } from '../../../features/movies/Movies.slice';
@@ -15,7 +15,7 @@ const renderWithStore = (
   ui: ReactElement,
   {
     initialState = defaultState,
-    store = createStore(rootReducer, initialState),
+    store = createStore(combineReducers(rootReducer), initialState),
     ...renderOptions
   }: {
     initialState: Partial<RootState>;

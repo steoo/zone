@@ -18,4 +18,9 @@ export const GenreContainer = styled.button<{ selected: boolean | undefined }>`
   padding: 6px 24px;
 
   flex: 0 0 auto;
+
+  &:hover {
+    border: 1px solid ${colors.red};
+    color: white;
+  }
 `;
