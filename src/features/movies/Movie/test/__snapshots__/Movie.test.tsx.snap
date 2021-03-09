@@ -4,14 +4,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
 <body>
   <div>
     <div
-      class="sc-gsTCUz erFNzH"
+      class="sc-dlfnbm iZuMOM"
     >
       <div
-        class="sc-hKgILt illcKF"
+        class="sc-eCssSg fBivze"
         src="https://image.tmdb.org/t/p/w200/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"
       />
       <div
-        class="sc-dlfnbm eSOSpU"
+        class="sc-hKgILt kXcAyG"
       >
         7
          
@@ -23,7 +23,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </span>
       </div>
       <div
-        class="sc-eCssSg fXmEff"
+        class="sc-jSgupP dSXnXm"
       >
         <h1>
           Wonder Woman 1984

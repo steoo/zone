@@ -4,109 +4,109 @@ exports[`Components Features Filters should have current vote average set to 4 1
 <body>
   <div>
     <div
-      class="sc-gsTCUz rwXcF"
+      class="sc-dlfnbm edICMC"
     >
       <div
-        class="sc-dlfnbm ibhunx"
+        class="sc-hKgILt kZKIbv"
       >
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Action
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Adventure
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Animation
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Comedy
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Crime
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Documentary
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Drama
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Family
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Fantasy
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           History
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Horror
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Music
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Mystery
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Romance
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Science Fiction
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           TV Movie
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Thriller
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           War
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Western
         </button>
       </div>
       <div
-        class="sc-hKgILt cqkDVS"
+        class="sc-eCssSg dOfNQx"
       >
         <h3>
           Vote average: 
@@ -126,109 +126,109 @@ exports[`Components Features Filters should render, without crashing 1`] = `
 <body>
   <div>
     <div
-      class="sc-gsTCUz rwXcF"
+      class="sc-dlfnbm edICMC"
     >
       <div
-        class="sc-dlfnbm ibhunx"
+        class="sc-hKgILt kZKIbv"
       >
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Action
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Adventure
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Animation
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Comedy
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Crime
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Documentary
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Drama
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Family
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Fantasy
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           History
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Horror
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Music
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Mystery
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Romance
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Science Fiction
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           TV Movie
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Thriller
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           War
         </button>
         <button
-          class="sc-bdfBwQ geIehQ"
+          class="sc-gsTCUz dOAjnQ"
         >
           Western
         </button>
       </div>
       <div
-        class="sc-hKgILt cqkDVS"
+        class="sc-eCssSg dOfNQx"
       >
         <h3>
           Vote average: 

@@ -4,17 +4,17 @@ exports[`Features Movies Component should render, without crashing 1`] = `
 <body>
   <div>
     <div
-      class="sc-bdfBwQ bRYgIY"
+      class="sc-gsTCUz cwlALo"
     >
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt illcKF"
+          class="sc-eCssSg fBivze"
           src="https://image.tmdb.org/t/p/w200/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           7
            
@@ -26,7 +26,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             Wonder Woman 1984
@@ -38,14 +38,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt hqstHX"
+          class="sc-eCssSg bkjhIA"
           src="https://image.tmdb.org/t/p/w200/c7VlGCCgM9GZivKSzBgzuOVxQn7.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           6.4
            
@@ -57,7 +57,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             The Little Things
@@ -69,14 +69,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt FymkD"
+          class="sc-eCssSg efxtkk"
           src="https://image.tmdb.org/t/p/w200/13B6onhL6FzSN2KaNeQeMML05pS.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           4.7
            
@@ -88,7 +88,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             Breach
@@ -100,14 +100,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt iUKuBX"
+          class="sc-eCssSg iVdMos"
           src="https://image.tmdb.org/t/p/w200/vYvppZMvXYheYTWVd8Rnn9nsmNp.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           6.6
            
@@ -119,7 +119,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             Vanguard
@@ -131,14 +131,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt hxrHcB"
+          class="sc-eCssSg bwwGZy"
           src="https://image.tmdb.org/t/p/w200/hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           8.3
            
@@ -150,7 +150,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             Soul
@@ -162,14 +162,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt cA-DiWf"
+          class="sc-eCssSg gPKPMA"
           src="https://image.tmdb.org/t/p/w200/zeD4PabP6099gpE0STWJrJrCBCs.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           6.6
            
@@ -181,7 +181,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             Honest Thief
@@ -193,14 +193,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt ezfTuz"
+          class="sc-eCssSg bXOMVY"
           src="https://image.tmdb.org/t/p/w200/2VrvxK4yxNCU6KVgo5TADJeBEQu.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           6.1
            
@@ -212,7 +212,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             100% Wolf
@@ -224,14 +224,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt jUSAhL"
+          class="sc-eCssSg cRghZk"
           src="https://image.tmdb.org/t/p/w200/tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           7.6
            
@@ -243,7 +243,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             The Croods: A New Age
@@ -255,14 +255,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt hsoklb"
+          class="sc-eCssSg dYgGFU"
           src="https://image.tmdb.org/t/p/w200/3ynPnBXQVT2Y0s19fDIPlWKUlxH.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           5.6
            
@@ -274,7 +274,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             The Rental
@@ -286,14 +286,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt hytDNG"
+          class="sc-eCssSg eQhRQd"
           src="https://image.tmdb.org/t/p/w200/eAUzmhP54bE1vPXaY7FbuZREJlR.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           6.5
            
@@ -305,7 +305,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             Sputnik
@@ -317,14 +317,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt dHZiWr"
+          class="sc-eCssSg bwHLoo"
           src="https://image.tmdb.org/t/p/w200/h7dZpJDORYs5c56dydbrLFkEXpE.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           7
            
@@ -336,7 +336,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             Host
@@ -348,14 +348,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt fpfIlY"
+          class="sc-eCssSg irXvBD"
           src="https://image.tmdb.org/t/p/w200/xZNw9xxtwbEf25NYoz52KdbXHPM.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           6.4
            
@@ -367,7 +367,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             The New Mutants
@@ -379,14 +379,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt jBnyKx"
+          class="sc-eCssSg clJjpK"
           src="https://image.tmdb.org/t/p/w200/b1C0FuXp4wiPmHLVKq4kwtDMgK6.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           6.8
            
@@ -398,7 +398,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             Roald Dahl's The Witches
@@ -410,14 +410,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt AESws"
+          class="sc-eCssSg kJMzlH"
           src="https://image.tmdb.org/t/p/w200/dFDNb9Gk1kyLRcconpj7Mc7C7IL.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           7
            
@@ -429,7 +429,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             The Dig
@@ -441,14 +441,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt dCfpyD"
+          class="sc-eCssSg jAoOII"
           src="https://image.tmdb.org/t/p/w200/gzFatNrw0lhKD5NxaU6zC7S2KjP.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           5.7
            
@@ -460,7 +460,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             The Owners
@@ -472,14 +472,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt khlppx"
+          class="sc-eCssSg lgpBZO"
           src="https://image.tmdb.org/t/p/w200/8F9xUvb1JMWUMkFV2Yq3aiueAbq.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           5.1
            
@@ -491,7 +491,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             Death of Me
@@ -503,14 +503,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt hVLVLC"
+          class="sc-eCssSg ckcFMp"
           src="https://image.tmdb.org/t/p/w200/xLbuMxKORru3oTlItLBWpI5WJxR.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           5.4
            
@@ -522,7 +522,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             Butchers
@@ -534,14 +534,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt eDAxOK"
+          class="sc-eCssSg dGEPIB"
           src="https://image.tmdb.org/t/p/w200/yF45egpHwaYLn4jTyZAgk0Cmug9.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           8
            
@@ -553,7 +553,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             Demon Slayer: Infinity Train
@@ -565,14 +565,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt dupqWv"
+          class="sc-eCssSg fjoKNg"
           src="https://image.tmdb.org/t/p/w200/v6NodCMzqilx0Xw541P65WFnDfE.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           6.6
            
@@ -584,7 +584,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             New Order
@@ -596,14 +596,14 @@ exports[`Features Movies Component should render, without crashing 1`] = `
         </div>
       </div>
       <div
-        class="sc-gsTCUz erFNzH"
+        class="sc-dlfnbm iZuMOM"
       >
         <div
-          class="sc-hKgILt beLRcI"
+          class="sc-eCssSg eHVPAf"
           src="https://image.tmdb.org/t/p/w200/lhMIra0pqWNuD6CIXoTmGwZ0EBS.jpg"
         />
         <div
-          class="sc-dlfnbm eSOSpU"
+          class="sc-hKgILt kXcAyG"
         >
           6
            
@@ -615,7 +615,7 @@ exports[`Features Movies Component should render, without crashing 1`] = `
           </span>
         </div>
         <div
-          class="sc-eCssSg fXmEff"
+          class="sc-jSgupP dSXnXm"
         >
           <h1>
             The Craft: Legacy

@@ -4,7 +4,7 @@ exports[`Features Genres Component should render the correct genre 1`] = `
 <body>
   <div>
     <button
-      class="sc-bdfBwQ geIehQ"
+      class="sc-gsTCUz dOAjnQ"
     >
       Action
     </button>
