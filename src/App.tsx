@@ -1,7 +1,7 @@
 import React, { FunctionComponent, useEffect } from 'react';
 import { batch, useDispatch, useSelector } from 'react-redux';
 import { fetchGenres, selectGenres } from './features/genres/Genres.slice';
-import { fetchMovies, selectSlice } from './features/movies/Movies.slice';
+import { fetchMovies, selectMovies, selectSlice } from './features/movies/Movies.slice';
 import Movies from './features/movies/Movies.component';
 import Filters from './features/filters/Filters.component';
 import { ErrorMessage } from './features/global.styles';
@@ -13,7 +13,8 @@ import { ErrorMessage } from './features/global.styles';
  * */
 const App: FunctionComponent = () => {
   const dispatch = useDispatch();
-  const { data: movies, error } = useSelector(selectSlice);
+  const { error } = useSelector(selectSlice);
+  const movies = useSelector(selectMovies);
   const genres = useSelector(selectGenres);
 
   useEffect(() => {
@@ -27,7 +28,6 @@ const App: FunctionComponent = () => {
     });
   }, [dispatch]);
 
-  
   /**
    * We handle the error situation just for the movies and let it
    * fail gracefully in case the genres request raises an error.
